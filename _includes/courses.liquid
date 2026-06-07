@@ -1,0 +1,11 @@
+{% for course in site.data.teaching %}
+  <div class="course">
+    <h3>{{ course.title }} [{{ course.code }}]</h3>
+    <p><strong>Term:</strong> {{ course.term }}</p>
+    {% if course.description != blank %}
+      <div class="description">
+        {{ course.description | markdownify }}
+      </div>
+    {% endif %}
+  </div>
+{% endfor %}
