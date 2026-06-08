@@ -240,7 +240,12 @@ keep_files:
   - CNAME
   - .nojekyll
 
-scholar_userid: ZDCPqL8AAAAJ
+email: "sobieski.bartlomiej.jan@gmail.com"
+linkedin_username: "bart%C5%82omiej-sobieski"
+x_username: "sobieski_bj"
+github_username: "sobieskibj"
+scholar_userid: "ZDCPqL8AAAAJ"
+
 cv_pdf: assets/pdf/_CV__Bartlomiej_Sobieski.pdf
 
 # Use al_folio_core as the theme runtime; local files can still override theme files.
